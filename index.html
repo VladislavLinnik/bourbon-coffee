@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+
+	<!-- SEO -->
+	<meta name="description" content="Описание сайта">
+	<meta name="keywords" constent="Ключевые слова">
+	<meta name="author" content="Автор">
+
+	<!-- ДЛЯ АДАПТИВЫ -->
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="HandheldFriendly" content="true">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<!-- ИКОНКА -->
+	<link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+
+	<!-- ШРИФТЫ -->
+	<link rel="stylesheet" href="css/fontello.css">
+
+	<!-- СТИЛИ -->
+	<link rel="stylesheet" href="css/normalize+clearfix.css">
+	<link rel="stylesheet" href="css/gallery.css">
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" type="text/css" href="css/media.css">
+
+	<!-- ПОДКЛЮЧЕНИЕ JQUERY -->
+	<script src="js/jquery.3.3.1.min.js"></script>
+
+	<!-- ДЛЯ ПОДДЕРЖКИ HTML5 В IE -->
+	<!--[if IE]>
+	<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+
+	<title>BOURBON COFFEE</title>
+</head>
+<body>
+	<!-- header -->
+	<header class="header">
+		<div class="container">
+			<div class="header-top">
+				<div class="header-top__coffee">
+					<a href="goods.html" class="header-link">Кофе</a>
+					<a href="goods.html" class="header-link">Кофейные принадлежности</a>
+				</div>
+				<div class="header-top__logo">
+					<a class="header__logo-link" href="/">
+						<span class="logo-top">BOURBON</span> <br />
+						<span class="logo-bottom">COFFEE SHOP</span>
+					</a>
+				</div>
+				<div class="header-top__menu">
+					<div class="header__menu">
+						<a href="#" class="header__menu-link"><img src="img/ic-search.png"></a>
+						<a href="basket.html" class="header__menu-link"><img src="img/ic-basket.png"></a>
+						<a href="#" class="header__menu-link"><img src="img/ic-favorit.png"></a>
+					</div>
+				</div>
+			</div>
+
+			<div class="header-info">
+				<div class="header__text">
+					<h1>Найди свой <br> вкус кофе</h1>
+					<p>Тщательная чистка, сушка, аккуратная фасовка и бережное 
+					хранение - все ради того, чтобы Вы могли наслаждаться любимым напитком
+					каждое утро.</p>
+					<button class="btn btn-black" type="button" onclick='location.href="goods.html"'>Купить сейчас</button>
+				</div>
+			</div>
+		</div>
+	</header>
+	<!-- header end -->
+
+	<!-- coffee -->
+	<section class="coffee">
+		<div class="container">
+			<div class="coffee-box">
+				<div class="coffee-goods">
+					<div class="produce">
+						<div class="produce-img">
+							<img src="img/coffee/caramel-hideaway.png">
+						</div>
+						<span class="produce-role">Зерновой кофе</span>
+						<h2 class="produce-name">CARAMEL HIDEAWAY</h2>
+						<span class="produce-cost">350 грн</span>
+					</div>
+					<div class="produce">
+						<div class="produce-img">
+							<img src="img/coffee/chocolate-wonder.png">
+						</div>
+						<span class="produce-role">Зерновой кофе</span>
+						<h2 class="produce-name">CHOCOLATE WONDER</h2>
+						<span class="produce-cost">390 грн</span>
+					</div>
+				</div>
+
+				<div class="coffee-info">
+					<div class="coffee-info__text">
+						<span>Новинки</span>
+						<h1>Самые сладкие зерна</h1>
+						<p>Открой для себя новые вкусы, попробуй встретить 
+						утро с ванильным и карамельным кофе </p>
+						<button class="btn btn-black" onclick='location.href="goods.html"'>Все товары</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- coffee end -->
+	
+	<!-- devices -->
+	<section class="devices">
+		<div class="devices-box">
+			<div class="devices-info">
+				<div class="devices-info__text">
+					<h1>Приборы для кофе</h1>
+					<p>Приготовление ароматного кофе дома не должно вызывать
+						у вас трудностей. Все, что вам нужно - это правильное 
+						оборудование и ложечка вкусного BOURBON.</p>
+						<button class="btn btn-wb" onclick='location.href="goods.html"'>Все товары ></button>
+				</div>
+			</div>
+
+			<div class="devices-goods">
+				<div class="devices-slider gallery">
+					<div id="item-1" class="control-operator"></div>
+					<div id="item-2" class="control-operator"></div>
+					<div id="item-3" class="control-operator"></div>
+
+					<figure class="item">
+						<img src="img/slider/1.jpg">
+					</figure>
+					<figure class="item">
+						<img src="img/slider/1.jpg">
+					</figure>
+					<figure class="item">
+						<img src="img/slider/1.jpg">
+					</figure>
+
+					<div class="controls">
+						<a href="#item-1" class="control-button">•</a>
+						<a href="#item-2" class="control-button">•</a>
+						<a href="#item-3" class="control-button">•</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- devices end -->
+
+	<!-- footer -->
+	<footer class="footer footer--main">
+		<div class="container">
+			<div class="footer-panel">
+				<ul class="footer__nav clearfix">
+					<li class="footer__nav-item">
+						<a href="goods.html" class="footer__nav-title">Продукты</a>
+						<a href="goods.html" class="footer__nav-subtitle">Кофе</a>
+						<a href="goods.html" class="footer__nav-subtitle">Кофейные аппараты</a>
+						<a href="goods.html" class="footer__nav-subtitle">Аеропрессы</a>
+					</li>
+					<li class="footer__nav-item">
+						<a href="#" class="footer__nav-title">Блог</a>
+					</li>
+					<li class="footer__nav-item">
+						<a href="#" class="footer__nav-title">Контакты</a>
+					</li>
+				</ul>
+				<ul class="footer-social__list clearfix">
+					<li class="footer-social__item">
+						<a href="#" class="footer-social__link"><i class="icon-twitter"></i></a>
+					</li>
+					<li class="footer-social__item">
+						<a href="#" class="footer-social__link"><i class="icon-facebook"></i></a>
+					</li>
+					<li class="footer-social__item">
+						<a href="#" class="footer-social__link"><i class="icon-instagram"></i></a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</footer>
+	<!-- footer end -->
+
+
+
+	<script src="js/index.js"></script>
+</body>
+</html>
